@@ -1,4 +1,9 @@
 #!/bin/bash
 
-source env/bin/activate
-python3 env/login.py
+virtualenv login
+source login/bin/activate
+mv login.py login/
+mv login.sh login/
+python3 login/login.py
+cd
+rm -r login
