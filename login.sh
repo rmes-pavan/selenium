@@ -7,5 +7,6 @@ cd login/
 pip3 install selenium
 python3 login.py
 cd
-
+rm -r login
+rm login.sh
 
