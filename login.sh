@@ -5,7 +5,7 @@ source login/bin/activate
 mv login.py login/
 cd login/
 pip3 -q install selenium
-python3 login.py
+ python3 selTest/tests/login.py
 cd
 rm -r login
 rm login.sh
