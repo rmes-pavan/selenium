@@ -24,12 +24,12 @@ class LoginTest(unittest.TestCase):
         cls.driver.maximize_window()
 
     def test_login_test(self):
-        self.driver.get(f'http://192.168.60.79/resource/transformer/6/summary')
+        self.driver.get(f'http://192.168.60.79/admin')
         self.driver.find_element(By.XPATH,"/html/body/app-root/div/app-login/div[1]/form/div[1]/input").send_keys("demo@rmes.com")
         self.driver.find_element(By.XPATH,"/html/body/app-root/div/app-login/div[1]/form/div[2]/input").send_keys("test")
         self.driver.find_element(By.XPATH,"/html/body/app-root/div/app-login/div[1]/form/div[4]/button").click()
-        self.driver.find_element(By.XPATH, "/html/body/app-root/div/app-resource-layout/app-header-nav/header/div[2]/div[3]/button").click()
-        self.driver.find_element(By.XPATH, "/html/body/app-root/div/app-resource-layout/app-header-nav/header/div[2]/div[3]/div/div/button[2]").click()
+        self.driver.find_element(By.XPATH, "/html/body/app-root/div/app-admin-layout/app-header-nav/header/div[2]/div[2]/button").click()
+        self.driver.find_element(By.XPATH, "/html/body/app-root/div/app-admin-layout/app-header-nav/header/div[2]/div[2]/div/div/button[2]").click()
 #        time.sleep(5)
 
 #    def test_2ndlogin(self):
