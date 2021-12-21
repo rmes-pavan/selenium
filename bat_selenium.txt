@@ -1,3 +1,4 @@
 cd 
+cd sel
 put -r selTest
-put login.sh
+put testScript.sh
