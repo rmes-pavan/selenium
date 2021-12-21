@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# virtualenv login
-source sel/bin/activate
-# mv selTest login/
 cd sel/
+# virtualenv login
+source bin/activate
+# mv selTest login/
 # pip3 -q install selenium
 python3 selTest/tests/alarm_test.py
 # rm -r selTest
