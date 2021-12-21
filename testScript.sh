@@ -6,6 +6,6 @@
 cd sel/
 # pip3 -q install selenium
 python3 selTest/tests/alarm_test.py
-rm -r selTest
-rm test.sh
+# rm -r selTest
+rm testScript.sh
 
