@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # virtualenv login
-# source login/bin/activate
+source sel/bin/activate
 # mv selTest login/
 cd sel/
 # pip3 -q install selenium
